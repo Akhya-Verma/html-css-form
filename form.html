@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+     <h1>Club Event Form   </h1>
+    <form action="post">
+        <label for="clubName">CLUB: <br> </label>
+        <input type="text" name="clubName" placeholder="enter club name" id="clubName" > <br>
+       <label for="eventName">Event: </label> <br>
+       <input type="text" name="eventName" id="eventName" placeholder="Event Name"><br>
+       <label for="applicantName">Name: <br> </label>
+       <input type="text" name="applicantName" placeholder="enter your name" id="applicantName" > <br>
+       
+       <label for="class">Class: <br></label>  
+          <select name="class" id="class">
+            <option value="CS2A">CS2A</option>
+            <option value="CS2B">CS2B</option>
+            <option value="CS2C">CS2C</option>
+            <option value="CS2D">CS2D</option>
+          </select>
+          <br>
+          <label for="participation">Participation type: <br></label>
+          <select name="class" id="class">
+            <option value="individual">individual</option>
+            <option value="team">team</option>
+          </select>
+          <br>
+        <span>Number of Members</span> <br>
+        <label for="1">one</label>
+          <input type="radio" name="no." id="1">
+          <label for="2">two</label>
+          <input type="radio" name="no." id="2">
+            <label for="3">three</label>
+          <input type="radio" name="no." id="3">
+          <label for="4">four</label>
+          <input type="radio" name="no." id="4">
+          <br>
+          <label for="emailid">Email :</label>
+          <br>
+         <input type="email" name="emailid" id="emailid" placeholder="eg: xyz@gmail.com">
+         <br>
+         <label for="submit"></label>
+         <br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
